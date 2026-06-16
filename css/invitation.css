@@ -1,42 +1,12 @@
 .invitation-section{
-    min-height:100vh;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    background-image:url("../assets/images/content.png");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-
-    padding:40px;
+    background:#BF8A65;
+    padding:0;
 }
 
-.invitation-card{
+.content-image{
+    width:100vw;
+    height:100vh;
 
-    width:min(900px,90%);
-    min-height:600px;
-
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-
-    padding:120px 80px;
-
-    background:rgba(255,255,255,0.05);
-
+    object-fit:fill;
     
-
-    border-radius:20px;
-}
-
-.bismillah{
-    font-size:2rem;
-    margin-bottom:50px;
-    color:#7f5a33;
-}
-
-.invitation-content{
-    width:100%;
 }
