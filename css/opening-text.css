@@ -49,22 +49,22 @@
 @media(max-width:768px){
 
     .opening-subtitle{
-        top:10%;
+        top:38%;
         font-size:9px;
     }
 
     .bride-title{
-        top:28%;
+        top:43%;
         font-size:38px;
     }
 
     .groom-title{
-        top:49%;
+        top:57%;
         font-size:46px;
     }
 
     .wedding-date{
-        top:66%;
+        top:70%;
         font-size:18px;
     }
 }
