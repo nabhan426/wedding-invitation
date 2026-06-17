@@ -21,8 +21,8 @@
 
 .invitation-image{
     width:100%;
-    height:100%;
-    object-fit:fill;
+    height:auto;
+    display:block;
 }
 
 /* Envelope Layer */
