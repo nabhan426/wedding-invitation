@@ -2,9 +2,14 @@
     background:#BF8A65;
     padding:0;
 }
+.invitation-wrapper{
+    position:relative;
+    width:100%;
+    height:100vh;
+}
 
 .content-image{
     width:100%;
-    height:auto;
-    display:block;
+    height:100%;
+    object-fit:fill;
 }
