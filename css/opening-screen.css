@@ -16,6 +16,17 @@
     width:100%;
     height:100%;
     object-fit:fill;
+    
+    transform:scale(0.95);
+    opacity:0;
+
+    transition:
+        transform 0.5s ease,
+        opacity 0.5s ease;
+}
+.open .opening-background-image{
+    transform:scale(1);
+    opacity:1;
 }
 
 .tap-text{

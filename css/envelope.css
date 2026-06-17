@@ -4,7 +4,7 @@
     width:100%;
     height:100%;
     z-index:5;
-    transition:opacity .5s ease;
+    transition:opacity 1.5s ease;
 }
 
 .flap-top{

@@ -13,7 +13,7 @@ document.addEventListener("click", () => {
         .querySelector(".opening-screen")
         .classList.add("open");
 
-    // Enable scrolling after animation
+    // Re-enable scrolling after envelope animation
     setTimeout(() => {
         document.body.classList.remove("lock-scroll");
     }, 0);
