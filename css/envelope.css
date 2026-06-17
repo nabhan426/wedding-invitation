@@ -1,168 +1,94 @@
-.opening-screen{
-    width:100%;
-    min-height:100vh;
-    position:relative;
-    overflow:hidden;
-}
-
-
-/* Invitation Behind */
-
-.invitation-container{
-    position:absolute;
-    inset:0;
-    z-index:1;
-
-    background-size:contain;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-color:#BF8A65;
-}
-
-.invitation-image{
-    width:100%;
-    height:100%;
-    object-fit:fill;
-}
-
-/* Envelope Layer */
-
 .envelope{
     position:absolute;
     inset:0;
     width:100%;
     height:100%;
     z-index:5;
-
     transition:opacity .5s ease;
 }
-
-/* TOP TRIANGLE */
 
 .flap-top{
     position:absolute;
     top:0;
     left:0;
-
     width:100%;
     height:50%;
-
     background:linear-gradient(
         to bottom,
         #e8cfb3,
         #d7b18c
     );
-
     clip-path:polygon(
         0 0,
         100% 0,
         50% 100%
     );
-
     transition:1.8s ease;
 }
-
-/* BOTTOM TRIANGLE */
 
 .flap-bottom{
     position:absolute;
     bottom:0;
     left:0;
-
     width:100%;
     height:50%;
-
     background:linear-gradient(
         to top,
         #e8cfb3,
         #d7b18c
     );
-
     clip-path:polygon(
         0 100%,
         100% 100%,
         50% 0
     );
-
     transition:1.8s ease;
 }
-
-/* LEFT TRIANGLE */
 
 .flap-left{
     position:absolute;
     top:0;
     left:0;
-
     width:50%;
     height:100%;
-
     background:#d9b08c;
-
     clip-path:polygon(
         0 0,
         100% 50%,
         0 100%
     );
-
     transition:1.8s ease;
 }
-
-/* RIGHT TRIANGLE */
 
 .flap-right{
     position:absolute;
     top:0;
     right:0;
-
     width:50%;
     height:100%;
-
     background:#d9b08c;
-
     clip-path:polygon(
         100% 0,
         0 50%,
         100% 100%
     );
-
     transition:1.8s ease;
 }
 
-/* Seal */
-
-.seal{
+.envelope-seal{
     width:180px;
-
     position:absolute;
     left:50%;
     top:50%;
-
     transform:translate(-50%,-50%);
     z-index:20;
-
     cursor:pointer;
-
     transition:
         opacity 1s ease,
         transform 1s ease;
 }
 
-/* Text */
-
-.tap-text{
-    position:absolute;
-    bottom:40px;
-    width:100%;
-    text-align:center;
-    color:white;
-    z-index:30;
-    letter-spacing:3px;
-}
-
-/* OPEN STATE */
-
-.open .seal{
+.open .envelope-seal{
     opacity:0;
     transform:
         translate(-50%,-50%)

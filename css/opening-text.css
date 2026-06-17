@@ -1,0 +1,70 @@
+.opening-subtitle{
+    position:absolute;
+    top:38%;
+    left:50%;
+    transform:translateX(-50%);
+    text-align:center;
+    color:#9a7449;
+    font-size:16px;
+    letter-spacing:3px;
+    z-index:10;
+}
+
+.bride-title{
+    position:absolute;
+    top:43%;
+    left:50%;
+    transform:translateX(-50%);
+    font-family:'Great Vibes', cursive;
+    font-size:72px;
+    color:#ae793c;
+    white-space:nowrap;
+    z-index:10;
+}
+
+.groom-title{
+    position:absolute;
+    top:57%;
+    left:50%;
+    transform:translateX(-50%);
+    font-family:'Cormorant Garamond', serif;
+    font-style:cursive;
+    font-size:72px;
+    color:#ae793c;;
+    white-space:nowrap;
+    z-index:10;
+}
+
+.wedding-date{
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translateX(-50%);
+    color:#9a7449;
+    font-size:32px;
+    letter-spacing:4px;
+    z-index:10;
+}
+
+@media(max-width:768px){
+
+    .opening-subtitle{
+        top:10%;
+        font-size:9px;
+    }
+
+    .bride-title{
+        top:28%;
+        font-size:38px;
+    }
+
+    .groom-title{
+        top:49%;
+        font-size:46px;
+    }
+
+    .wedding-date{
+        top:66%;
+        font-size:18px;
+    }
+}
