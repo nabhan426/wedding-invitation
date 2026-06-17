@@ -17,12 +17,12 @@
     height:100%;
     object-fit:fill;
     
-    transform:scale(0.95);
+    transform:scale(0.97);
     opacity:0;
 
     transition:
-        transform 0.5s ease,
-        opacity 0.5s ease;
+        transform 0.9s ease,
+        opacity 0.9s ease;
 }
 .open .opening-background-image{
     transform:scale(1);
