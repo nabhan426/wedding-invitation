@@ -1,0 +1,27 @@
+.venue-section{
+    background:#BF8A65;
+}
+
+.venue-wrapper{
+    position:relative;
+    width:100%;
+    height:100vh;
+}
+
+.venue-image{
+    width:100%;
+    height:100%;
+    object-fit:fill;
+
+    transform:scale(0.98);
+    opacity:0;
+
+    transition:
+        transform 1s ease,
+        opacity 1s ease;
+}
+
+.venue-image.show{
+    transform:scale(1);
+    opacity:1;
+}

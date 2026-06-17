@@ -1,5 +1,5 @@
-const invitationImage = document.querySelector(
-    ".invitation-content-image"
+const animatedImages = document.querySelectorAll(
+    ".invitation-content-image, .venue-image"
 );
 
 const observer = new IntersectionObserver(
@@ -9,7 +9,7 @@ const observer = new IntersectionObserver(
 
             if(entry.isIntersecting){
 
-                invitationImage.classList.add("show");
+                entry.target.classList.add("show");
 
             }
 
@@ -21,4 +21,6 @@ const observer = new IntersectionObserver(
     }
 );
 
-observer.observe(invitationImage);
+animatedImages.forEach(image => {
+    observer.observe(image);
+});
