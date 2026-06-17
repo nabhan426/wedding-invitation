@@ -4,8 +4,17 @@
     box-sizing:border-box;
 }
 
+html,
 body{
+    width:100%;
     overflow-x:hidden;
+}
+
+body{
     font-family:serif;
     background:#000;
+}
+img{
+    max-width:100%;
+    display:block;
 }

@@ -1,8 +1,10 @@
 .opening-screen{
-    width:100vw;
-    height:100vh;
+    width:100%;
+    min-height:100vh;
     position:relative;
+    overflow:hidden;
 }
+
 
 /* Invitation Behind */
 
@@ -28,6 +30,8 @@
 .envelope{
     position:absolute;
     inset:0;
+    width:100%;
+    height:100%;
     z-index:5;
 
     transition:opacity .5s ease;
