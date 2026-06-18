@@ -31,7 +31,7 @@
     position:absolute;
 
     left:50%;
-    bottom:58%;
+    bottom:46%;
 
     transform:translateX(-50%);
 
@@ -88,7 +88,7 @@
 @media(max-width:768px){
 
     .countdown-overlay{
-        bottom:60%;
+        bottom:49%;
     }
 
     .countdown-title{
